@@ -1,0 +1,30 @@
+.componentspacing{
+    position: center;
+    width: 580px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px;
+    padding: 10px;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+.componentheaders{
+
+    text-align: center;
+    padding: 25%;
+    padding-block: 5%;
+
+}
+
+    .URLallignment{
+        flex-wrap: wrap;
+  align-content: center;
+  font-stretch: semi-condensed;
+    }
+
+.backround {
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 64, 64);
+    width: 50%;
+  }

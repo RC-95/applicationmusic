@@ -1,0 +1,121 @@
+
+
+  .customfileinput {
+      color: transparent;
+      height: 40px;
+      padding-top: 60px;
+      padding-left: 80px;
+  
+    }
+    .customfileinput::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .customfileinput::before {
+      content: 'Select Your Track';
+      color: black;
+      display: inline-block;
+      background: -webkit-linear-gradient(top, #ffffff, #e3e3e3);
+      border: 1px solid rgb(153, 153, 153);
+      border-radius: 3px;
+      padding: 5px 8px;
+      outline: none;
+      white-space: nowrap;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+      position: relative;
+      left: 100%;
+    }
+    .customfileinput:hover::before {
+      border-color: black;
+    }
+    .customfileinput:active {
+      outline: 0;
+  
+  
+    }
+    .customfileinput:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+    
+    body {
+      padding: 0px;
+    }
+    
+    
+  
+    .customfileinput2 {
+      color: transparent;
+    }
+    .customfileinput2::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .customfileinput2::before {
+      content: 'Select Your Data File';
+      color: black;
+      display: inline-block;
+      background: -webkit-linear-gradient(top, #f1f1f1, #e3e3e3);
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      outline: none;
+      white-space: nowrap;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    .customfileinput2:hover::before {
+      border-color: black;
+    }
+    .customfileinput2:active {
+      outline: 0;
+    }
+    .customfileinput2:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    }
+    
+    body {
+      padding: 0px;
+    }
+    
+  .FileinputText {
+    text-align: center;
+  
+  
+  }
+  
+  
+    .SubmitButton {
+      color: black;
+      display: inline-block;
+      background: -webkit-linear-gradient(top, #ffffff, #e3e3e3);
+      border: 1px solid rgb(153, 153, 153);
+      border-radius: 3px;
+      padding: 5px 8px;
+      outline: none;
+      white-space: nowrap;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+  
+      left: 60%;
+      position: relative;
+      left: 38%;
+      text-align: center;
+      text-align-last: center;
+     background-color: white; 
+     color: black; 
+     border: 1px solid rgb(153, 153, 153);
+      border-radius: 3px;
+    }
+  
+   .SubmitButton:hover {
+    border-color: black;
+  }
+  
+  .SubmitButton:active {
+  outline: 0
+  }

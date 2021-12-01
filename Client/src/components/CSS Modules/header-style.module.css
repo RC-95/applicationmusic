@@ -1,0 +1,27 @@
+.headerblue {
+    color: black;
+    height: 80px;
+    width: 50;
+    background-color: oldlace;
+    background-blend-mode: color-burn;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    font-family: Monospace;
+    text-align: center;
+    border: 5px solid black;
+
+  }
+
+  .headerText {
+    color: black;
+    height: 0px;
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+
+  }
+
+
+  
